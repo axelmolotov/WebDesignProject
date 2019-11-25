@@ -2,9 +2,19 @@
 html, body {
     margin:0;
     padding:0;
-    
+    /* Change for responsiveness */
+    display: block;
     font-family: 'Courier New', Courier, monospace;
     
+}
+
+html {
+    height: 1200px;
+}
+
+.pagewrapper {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .header {
@@ -18,8 +28,31 @@ html, body {
 
 }
 
+h1 {
+    margin: 0 auto;
 
-ul { 
+}
+
+ .header .trans { 
+    -webkit-transition: 
+        background 1s,
+        padding 1s,
+        margin 1s,
+        content 1s,
+        font-size 1s,
+        border-radius 1s;
+    transition: 
+        background 1s, 
+        padding 1s, 
+        margin 1s, 
+        content 1s, 
+        background-color 1s, 
+        font-size 1s, 
+        border-radius 1s;
+
+}
+
+.headernav ul { 
 
     padding: 10px;
     align-items: center;
@@ -39,6 +72,20 @@ ul {
     
     display: inline-block;
 }    
+
+#dot:hover {
+    background-color: black;
+    border-radius: 100%;
+    font-size: 0px;
+    /* Change size of the dot when hovered */
+    padding: 7px;
+    margin: 30px;
+    
+}
+
+#dot p:hover {
+    padding: 0px;
+}
     
 
 .nav {
@@ -68,6 +115,10 @@ ul {
    
 }
 
+.header p {
+    padding: 0px;
+    margin: 0px;
+}
 
 .nav li p {
     font-size: 16px;
@@ -83,8 +134,7 @@ ul {
     
     text-decoration: none;
     display:inline-block;
-    padding-bottom: 10px;
-    padding-top:10px;
+    padding: 10px 20px 10px 20px;
     
 }
 
@@ -166,15 +216,61 @@ ul {
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
 }
-.aboutheader
+.aboutfooter
 {
+    
+    bottom:0;
     background-color: cornsilk;
-    text-align: center;
-    height: 100px;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
     font-family: fantasy;
-    font-size: 40px;
-    margin-top: 10px;
+    font-size: 20px;
+    
     
 }
-.history
-{width:30%;
+.aboutbody{
+    display:inline;
+}
+.headernav {
+    display: block;
+    border-radius: 0px 0px 100px 100px;
+    width: 100%;
+    
+    /* background-color:#c2e8ce; */
+
+   
+    
+}
+
+.left-container {
+    border: 3px outset;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 1%;
+    float: left;
+    width: 20%;
+}
+
+.middle-container {
+    border: 3px outset;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 1%;
+    float: left;
+    width: 40%;
+}
+
+.middle-container li {
+
+}
+
+.right-container {
+    border: 3px outset;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 1%;
+    float: left;
+    width: 20%;
+}
