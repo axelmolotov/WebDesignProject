@@ -1,1 +1,180 @@
 /* Example commit */
+html, body {
+    margin:0;
+    padding:0;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.header {
+    height: 20px;
+    position: relative;
+    text-align: center;
+    padding: 0 0 30px 0;
+    margin: 0 0 30px 0;
+    font-size: 40px;
+    
+
+}
+
+
+ul { 
+
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+    
+#dot {
+    margin: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 30px;
+    font-weight: 800;
+    /* text-decoration: underline; */
+    
+    display: inline-block;
+}    
+    
+
+.nav {
+    text-align: center;
+
+}
+
+.nav li {     
+    text-align: center;
+    
+    
+    padding-left: 40px;
+
+    padding-right: 40px;
+   
+    display: inline-block;
+    
+}
+
+.nav li a img {
+    height: 70px;
+   
+}
+
+.nav li a img:hover {
+    fill: orange;
+   
+}
+
+
+.nav li p {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.nav li a {
+    text-align: center;
+    
+    font-weight: 700;
+    
+    text-decoration: none;
+    display:inline-block;
+    padding-bottom: 10px;
+    padding-top:10px;
+    
+}
+
+
+
+
+.about {background-color: yellow;
+    
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+ .button {
+    --offset: 5px;
+    --border-size: 2px;
+    display: inline;
+    position: relative;
+    padding: 1.5em 3em;
+    background: transparent;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+}
+.button:hover {
+    background: rgba(100, 0, 0, 0.03);
+}
+.button__horizontal, .button__vertical {
+    position: absolute;
+    top: var(--horizontal-offset, 0);
+    right: var(--vertical-offset, 0);
+    bottom: var(--horizontal-offset, 0);
+    left: var(--vertical-offset, 0);
+    transition: -webkit-transform 0.8s ease;
+    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+    will-change: transform;
+}
+.button__horizontal::before, .button__vertical::before {
+    content: "";
+    position: absolute;
+    border: inherit;
+}
+.button__horizontal {
+    --vertical-offset: calc(var(--offset) * -1);
+    border-top: var(--border-size) solid currentcolor;
+    border-bottom: var(--border-size) solid currentcolor;
+}
+.button__horizontal::before {
+    top: calc(var(--vertical-offset) - var(--border-size));
+    bottom: calc(var(--vertical-offset) - var(--border-size));
+    left: calc(var(--vertical-offset) * -1);
+    right: calc(var(--vertical-offset) * -1);
+}
+
+
+.button:hover .button__horizontal {
+    
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+.button__vertical {
+    --horizontal-offset: calc(var(--offset) * -1);
+    border-left: var(--border-size) solid currentcolor;
+    border-right: var(--border-size) solid currentcolor;
+}
+.button__vertical::before {
+    top: calc(var(--horizontal-offset) * -1);
+    bottom: calc(var(--horizontal-offset) * -1);
+    left: calc(var(--horizontal-offset) - var(--border-size));
+    right: calc(var(--horizontal-offset) - var(--border-size));
+}
+.button:hover .button__vertical {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+}
+.aboutheader
+{
+    background-color: cornsilk;
+    text-align: center;
+    height: 100px;
+    font-family: fantasy;
+    font-size: 40px;
+    margin-top: 10px;
+    
+}
+.history
+{width:30%;
