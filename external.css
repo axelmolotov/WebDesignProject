@@ -18,7 +18,7 @@ html, body {
     padding: 0 0 30px 0;
     margin: 0 0 30px 0;
     font-size: 35px;
-    background-color: ;
+    
     
 
 }
@@ -254,9 +254,7 @@ h1 {
     width: 40%;
 }
 
-.middle-container li {
 
-}
 
 .right-container {
     border: 3px outset;
