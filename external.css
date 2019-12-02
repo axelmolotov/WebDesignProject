@@ -5,7 +5,7 @@ html, body {
     /* Change for responsiveness */
     display: block;
     font-family: 'Courier New', Courier, monospace;
-    width: 100%;
+    background-color: aquamarine;  
 }
 
 
@@ -303,4 +303,8 @@ h1 {
     background: #125688;
     color: white;
   }
-  
+  .plumberpic{
+      height: 300px;
+      width: 200px;
+        float: bottom;   
+  }
