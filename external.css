@@ -364,8 +364,8 @@ h1 {
     color: white;
   }
   .plumberpic{
-      height: 300px;
-      width: 200px;
+      
+      width: 20%;
        
   }
   a:active {
@@ -377,6 +377,6 @@ h1 {
 
 .pagebody{
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     padding: 0;
 }
