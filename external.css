@@ -2,11 +2,11 @@
 html, body {
     margin:0;
     padding:0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     background-color: white;
 background-image: linear-gradient(335deg, #d6c5c5  23px, transparent 23px),
 linear-gradient(155deg, #d6c5c5d2  23px, transparent 23px),
-linear-gradient(335deg, #d6c5c5b2  23px, transparent 23px),
+linear-gradient(335deg, #b6a8a89c  23px, transparent 23px),
 linear-gradient(155deg, #d6c5c5a1  23px, transparent 23px);
 background-size: 58px 58px;
 background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
@@ -227,7 +227,8 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 .indexbody{
     padding:20px;
-    display: inline;
+    
+
 }
 .plumberpic{
     float:right;
@@ -239,20 +240,28 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
     margin:10px;
     border-radius: 15px;
     padding:20px;
-    color:white;
+    color:black;
     font-weight: bold;
-    width: 55%;
     height: 300px;
-      
-
 }
+
 
 .indexicon{
-    display:inline-block;
+    display:inline-flex;
     width: 30%;
+    align-items: center;
+    background-color:white;
+    border-radius: 20px;
+    padding:5px;
+    margin:10px;
 }
-    
+.indexicon img{
+    margin:5px;
 }
+.iconscopyr a:link a:hover a:active a:visited{
+    color:white;
+}    
+
 .aboutbody{
     display:inline;
 }
@@ -287,7 +296,7 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
      background-color: rgba(34, 32, 30, 0.822);
     color:whitesmoke;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 
@@ -383,7 +392,8 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
           width:90%;
           padding:5px 10px;
 		  border: 10px solid rgba(24, 17, 17, 0.164);
-		  background-color: rgb(235, 219, 219);
+          background-color: rgba(34, 32, 30, 0.822);
+          color:white;
 		  border-radius: 15px;
 		  font-weight: 900;
           margin: 10px auto 10px auto;
