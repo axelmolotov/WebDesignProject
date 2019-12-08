@@ -13,7 +13,7 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 .pagebody{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     padding: 0;
 }
 .headernav {
@@ -217,13 +217,17 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
     bottom:0;
     background-color: #e2b0b0b4;
     position: fixed;
+    margin:0 auto 0 auto;
     width: 100%;
-    height: 20px;
+    height: 15px;
     padding: 20px;
     font-family: fantasy;
     font-size: 20px;
+    
 }
-.indexbody{display:inline-block;
+.indexbody{
+    padding:20px;
+    display: inline;
 }
 .plumberpic{
     float:right;
@@ -232,13 +236,20 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 .wedo{
     background-color: rgba(34, 32, 30, 0.822);
-    float:left;
-    width:60%;
     margin:10px;
     border-radius: 15px;
     padding:20px;
     color:white;
     font-weight: bold;
+    width: 55%;
+    height: 300px;
+      
+
+}
+
+.indexicon{
+    display:inline-block;
+    width: 30%;
 }
     
 }
@@ -287,15 +298,19 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 
 }
 .testimonialsbody{
-    margin-top: 10px;
+    width: 100%;
     text-align: center;
+    padding: 20px;
 }
-.headertestimonials h2{
+.headertestimonials{
     background-color:#8a8585;
     text-align: center;
     border-radius: 10px;
-    margin:0;
+    margin:5px auto 0 auto;
     color:whitesmoke;
+    width:95%;
+    font-weight: 1000;
+    font-size: 30px;
     
 }
 .contactbody {
@@ -365,11 +380,16 @@ background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
             font-weight: bold;
 		}
 		.container {
-		  border: 2px solid #ccc;
-		  background-color: #eee;
-		  border-radius: 5px;
-		  padding: 16px;
-		  margin: 20px 0;
+          width:90%;
+          padding:5px 10px;
+		  border: 10px solid rgba(24, 17, 17, 0.164);
+		  background-color: rgb(235, 219, 219);
+		  border-radius: 15px;
+		  font-weight: 900;
+          margin: 10px auto 10px auto;
+          font-family: century gothic full stack;
+          font-size: 15px;
+          
 		}
 		
 		.container::after {
