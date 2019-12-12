@@ -90,7 +90,7 @@ html, body {
     height: 70px;
 }
 .nav li a img:hover {
-    fill: orange;
+    fill: rgb(75, 86, 185);
 }
 .header p {
     padding: 0px;
@@ -112,6 +112,7 @@ html, body {
     display:inline-block;
     padding: 10px 20px 10px 20px;
 }
+/*https://freefrontend.com/css-button-hover-effects// button effect by Tobias Reich */
  .button {
     --offset: 5px;
     --border-size: 2px;
