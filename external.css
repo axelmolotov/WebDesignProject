@@ -251,6 +251,9 @@ html, body {
 }
 
 /*map page can be only accessed from about us page*/
+.map{
+    margin:auto 40px auto 0;
+}
 .indexbody{
     text-align: center;
     margin-top: 30px;  
